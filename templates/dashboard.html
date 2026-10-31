@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Papertrail Console</title><link rel="stylesheet" href="/static/style.css"></head>
+<body><main class="wide"><header><div><p class="eyebrow">ARCHIVE CONSOLE</p><h1>Welcome, {{ user.sub }}</h1></div><span class="badge">{{ user.role }}</span></header>
+<section class="grid"><article><h2>Theme inspector</h2><p>Legacy clients can retrieve a theme through <code>GET /api/theme?name=default.css</code>.</p></article>
+<article><h2>Migration note</h2><p>Authentication was upgraded to RSA, but compatibility with older signing agents remains enabled.</p></article>
+<article><h2>Preview service</h2><p>The document preview endpoint is restricted to archive administrators.</p><code>POST /admin/preview</code></article></section>
+<footer>build 2.7.14-legacy</footer></main></body></html>
+
