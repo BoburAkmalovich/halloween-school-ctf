@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /halloween-school-ctf/basement-13.html
+# Роботы боятся темноты...
